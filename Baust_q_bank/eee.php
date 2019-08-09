@@ -1,8 +1,9 @@
 <!DOCTYPE html>
 <html>
 <head>
-<link rel="stylesheet" href="css/main.css">
+ <title>EEE</title>
 <style>
+
 .myDIV_left {
 padding: 50px 0;
     padding: 50px 0;
@@ -16,7 +17,7 @@ padding: 50px 0;
     border: 2px slateblue;
     boder-radius: 20px;
     float: right;
-    border: 2px solid #49CCFF;
+    border: 2px solid #add8e682;
     border-radius: 15px;
     color: white;
 	    height: 500px;
@@ -34,31 +35,62 @@ padding: 50px 0;
     boder-radius: 15px;
     border: 2px slateblue;
     boder-radius: 20px;
-    border: 2px solid #49CCFF;
+    border: 2px solid #add8e682;
     border-radius: 15px;
     color: white;
 	    height: 500px;
 }
 
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: #111;
+}
+
+.active {
+  background-color: #4CAF50;
+}
 </style>
 </head>
 <body class="body">
 <body class="news">
   <header class="header1">
 <div class="logo">
+	<p align ="center"><i><strong>Discipline Knowledge Morality<strong></i></p>
+
+	
+	<img style="float: left; margin: -35px -10px -10px -10px;" src="img/BAUST.png" width="150" align="left" />
 	
 	<h1  align="center"><strong>Bangladesh Army university of Science And Technology<strong></h1>
-	<h2 align = "center"><strong>BAUST Question Archives<strong></h2>
+	<h2 align ="center"><strong>BAUST Question Archives (BAUST Question Bank)<strong></h2>
 	</div>
     <div class="nav">
-      <ul>
-        <li class="home"><a href="index.php">Home</a></li>
-        <li class="news"><a class="active" href="News.php">Question</a></li>
-        <li class="contact"><a href="Contact.php">Contact</a></li>
-        <li class="about"><a href="About.php">About</a></li>
-        <li class="QUIZ"><a href="http://localhost/quiz_oops/">Quiz</a></li>
-        <li class="login"><a href="login.php">Admin</a></li>
-      </ul>
+
+	<ul>
+		<li><a	 href="index.php">Home</a></li>
+		<li><a  href="contact.php">Contact</a></li>
+		<li><a class="active" href="about.php">About</a></li>
+		<li style="float:left"><a  href="http://localhost/quiz_oops/">Quiz</a></li>
+	</ul>
     </div>
   </header>
     </div>

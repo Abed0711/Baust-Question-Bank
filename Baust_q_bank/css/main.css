@@ -50,11 +50,11 @@
  }
 
  .body{
-  background-color:#26273B;
+  background-color:#000;
  }
  
  .continer{
-	background-color:#26273B;
+	background-color:#000;
 	    padding: 1px 0 0 144px;
  }
 
@@ -75,7 +75,7 @@
     border-radius: 23px;
  }
  .field{
-  background-color:#26273B;
+  background-color:#000;
   height:20px;
   padding: 1px 1px 1px 40px;
   border-top-left-radius: 10px;
@@ -94,7 +94,7 @@
    border-bottom-right-radius: 10px;
  }
 .resistaion-form{
-    background-color: #26273B;
+    background-color: #000;
     height: 563px;
     margin: 0 0 0 0;
     padding: 19px 0 0px 221px;
