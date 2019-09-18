@@ -1,7 +1,9 @@
 <!DOCTYPE html>
 <html>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 <head>
- <title>Contact</title>
+		
+    <title>Home</title>
 <style>
 
 .myDIV_left {
@@ -11,7 +13,7 @@ padding: 50px 0;
 
     float: left;
     width: 35%;
-        margin: 50px 170px 0 0px;
+    margin: 50px 170px 0 0px;
     text-align: center;
     boder-radius: 15px;
     border: 2px slateblue;
@@ -20,12 +22,12 @@ padding: 50px 0;
     border: 2px solid #add8e682;
     border-radius: 15px;
     color: white;
-	    height: 500px;
+      height: 250px;
 }
 .myDIV_right{
-	    margin: 50px 0 0 170px;
-	float: left;
-	
+      margin: 50px 0 0 170px;
+  float: left;
+  
 padding: 50px 0;
     padding: 50px 0;
     background-color: #add8e682;
@@ -38,10 +40,8 @@ padding: 50px 0;
     border: 2px solid #add8e682;
     border-radius: 15px;
     color: white;
-	    height: 500px;
+      height: 250px;
 }
-
-
 ul {
   list-style-type: none;
   margin: 0;
@@ -70,10 +70,79 @@ li a:hover:not(.active) {
   background-color: #4CAF50;
 }
 
+
 img {
-  border-radius: 5%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
+.navbar {
+  overflow: hidden;
+  background-color: #333;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.navbar a {
+  float: left;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+.dropdown .dropbtn {
+  cursor: pointer;
+  font-size: 16px;  
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+
+.navbar a:hover, .dropdown:hover .dropbtn, .dropbtn:focus {
+  background-color: #4CAF50;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+.show {
+  display: block;
+}
+
+.body
+{
+  color: black;
+}
 
 .padding_p{
   overflow: hidden;
@@ -248,99 +317,95 @@ img {
   }
 
 }
+
 </style>
 </head>
 <body class="body">
-<body class="news">
+
   <header class="header1">
 <div class="logo">
-	
-	<p align ="center"><i><strong>Discipline Knowledge Morality<strong></i></p>
+<p align ="center"><i><strong>Discipline Knowledge Morality<strong></i></p>
   <a href="index.php">
     <img style="float: left; margin: -3% 0% 0% 0%;" src="img/BAUST.png" width="8%" align="left" />
 </a>
-	<h1  align="center"><strong>Bangladesh Army university of Science And Technology<strong></h1>
-	<h2 align ="center"><strong>BAUST Question Archives (BAUST Question Bank)<strong></h2>
+  <h1  align="center"><strong>Bangladesh Army university of Science And Technology<strong></h1>
+  <h2 align ="center"><strong>BAUST Question Archives (BAUST Question Bank)<strong></h2>
+  </div>
+
 	</div>
-    <div class="nav">
-
-	<ul>
-		<li><a	href="index.php">Home</a></li>
-		<li><a class="active"  href="contact.php">Contact</a></li>
-		<li><a href="about.php">About</a></li>
-	</ul>
-    </div>
-
-
-
+	
+	
+	<div class="navbar">
+  <a href="index.php" class="active">Home</a>
+  <a href="about.php">About</a>
+  <a href="contact.php">Contact</a>
+  
+  <div class="dropdown" style="float:right">
+  <button class="dropbtn" onclick="myFunction()">Goto
+    <i class="fa fa-caret-down"></i>
+  </button>
+  <div class="dropdown-content" id="myDropdown">
+    <a href="cse.php" >CSE</a>
+    <a href="eee.php" >EEE</a>
+    <a href="me.php" >ME</a>
+    <a href="ipe.php">IPE</a>
+    <a href="english.php">English</a>
+    <a href="dba.php" >DBA</a>
+  </div>
+  </div> 
+</div>
     
   </header>
-    <div class="padding_p">
-    <div class="myDIV_right">
-  <img src="img/deansir1.jpg" alt="Avatar" style="width:43%">
-  <h1 style="color:black">Prof. Dr. Md. Mamunur Rashid</h1>
-  <h2 style="color:black">Chief Adviser</h2>
-  <p style="color:black">Designation :  Dean, Faculty of CEE, Head of the Dept. & Professor<br>
-  Department :  Computer Science and Engineering<br>
-  Qualification : B.Sc. & M.Sc. (CSE Dept. Rajshahi University), Ph.D. in Engg. (MITHT, Russia)<br>
-  Research Interest:  Operating System, Data Warehouse & Mining<br>
-  Mobile: 01769662722, 01769675560<br>
-  Email:  hdcse@baust.edu.bd,dmmr@baust.edu.bd,dean_foe@baust.edu.bd<br>
-     </p>
-  </div>
-    <div class="myDIV_left">
-    <img src="img/hassanir.jpg" alt="Avatar" style="width:32%">
-    <h1 style="color:black">Mohammad Hasan</h1>
-    <h2 style="color:black">Project Director</h2>
-  <p style="color:black">
-      Designation : Lecturer<br>
-      Department :  Computer Science and Engineering<br>
-      Qualification : B.Sc. Engg. in CSE (CUET)<br>
-      Research Interest:  Bio-Informatics, Algorithm Design Optimization<br>
-      Mobile: 01767954884<br>
-      Email:  u1304044@student.cuet.ac.bd<br>
-     </p>
-  </div>
-
-
-
-  <div>
+    </div>
+  </header>
+<div class="padding_p">
   	<div class="myDIV_right">
-	<img src="img/abed.jpg" alt="Avatar" style="width:70%">
-	<h1 style="color:black">Md. Abedur Rahman</h1>
-	<p style="color:black">Department :	Computer Science and Engineering<br>
-       Qualification :	B.Sc. Engg. in CSE(Running)<br>
-       Mobile:	+8801737885732<br>
-       Email:	abed.baust@gmail.com<br>
-	   </p>
+	
+	
+    	<a href = "cse.php">
+    	<img style="float: left; margin: 0% 0% 0% 40%;" src="img/CSE.png" width="16%" class="responsive" />
+    	<h1 style="float: left; margin: 0% 0% 0% 15%;color:black;">Computer Science And <br>Engineering</h1>
+    	</a>
 
 	</div>
 		<div class="myDIV_left">
-		<img src="img/mahdi.jpg" alt="Avatar" style="width:50%">
-		<h1 style="color:black">Molla Mahdi Ihsan</h1>
-	<p style="color:black">Department :	Computer Science and Engineering<br>
-       Qualification :	B.Sc. Engg. in CSE(Running)<br>
-       Mobile:	+8801735580667<br>
-       Email:	mahdiihsan16110@gmail.com<br>
-	   </p>
+	<a href = "eee.php">
+	<img style="float: left; margin: 0% 0% 0% 40%;" src="img/EEE.png" width="100" class="responsive" />
+	<h1 style="float: left; margin: 0% 0% 0% 15%;color:black;">Electrical And Electronics <br> Engineering</h1>
+	</a>
 
-
-	</div>
 	</div>
   	<div class="myDIV_right">
-      <img src="img/alamin vai.jpg" alt="Avatar" style="width:50%">
-		<h1 style="color:black">Md. Al Amin</h1>
-	<p style="color:black">Department :	Computer Science and Engineering<br>
-       Qualification :	B.Sc. Engg. in CSE(Running)<br>
-       Mobile:	+8801792772985<br>
-       Email:	alamin.baust@gmail.com<br>
-	   </p>
-
+	<a href = "me.php">
+	<img style="float: left; margin: 0% 0% 0% 40%;" src="img/mechanical.png" width="100" class="responsive"/>
+	<h1 style="float: left; margin: 0% 0% 0% 15%;color:black;">Mechanical Engineering</h1>
+	</a>
+	
 
 
 	</div>
+  	<div class="myDIV_left">
+	<a href = "ipe.php">
+	<img style="float: left; margin: 0% 0% 0% 42%;" src="img/IPE.png" width="100" class="responsive"/>
+	<h1 style="float: left; margin: 0% 0% 0% 15%;color:black;">Industrial and Production <br>Engineering</h1>
+	</a>
+	</div>
+  	<div class="myDIV_left">
+	<a href = "english.php">
+	<img style="float: left; margin: 0% 0% 0% 40%;" src="img/market-research.png" width="100" class="responsive" />
+	<h1 style="float: left; margin: 0% 0% 0% 15%;color:black;">Department of Business<br> Administration</h1>
+	</a>
 
+
+	</div>
+  	<div class="myDIV_right">
+	<a href = "dba.php">
+	<img style="float: left; margin: 0% 0% 0% 40%;" src="img/English.png" width="100" class="responsive"/>
+	<h1 style="float: left; margin: 0% 0% 0% 15%;color:black;">Department of English</h1>
+	</a>
+	</div>
 </div>
+
 
   <div class="footer-distributed">
 
@@ -378,6 +443,24 @@ img {
 
     </div>
    </div>
+
 </body>
+<script>
+/* When the user clicks on the button, 
+toggle between hiding and showing the dropdown content */
+function myFunction() {
+  document.getElementById("myDropdown").classList.toggle("show");
+}
+
+// Close the dropdown if the user clicks outside of it
+window.onclick = function(e) {
+  if (!e.target.matches('.dropbtn')) {
+  var myDropdown = document.getElementById("myDropdown");
+    if (myDropdown.classList.contains('show')) {
+      myDropdown.classList.remove('show');
+    }
+  }
+}
+</script>
 </body>
 </html>

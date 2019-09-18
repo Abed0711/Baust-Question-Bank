@@ -75,21 +75,20 @@ li a:hover:not(.active) {
 <body class="news">
   <header class="header1">
 <div class="logo">
+	
 	<p align ="center"><i><strong>Discipline Knowledge Morality<strong></i></p>
 
-	
-	<img style="float: left; margin: -35px -10px -10px -10px;" src="img/BAUST.png" width="150" align="left" />
-	
 	<h1  align="center"><strong>Bangladesh Army university of Science And Technology<strong></h1>
 	<h2 align ="center"><strong>BAUST Question Archives (BAUST Question Bank)<strong></h2>
+		<img style="float: center; margin: 0% 0% 0% 45.5%;" src="img/BAUST.png" width="100" align="center" />
 	</div>
     <div class="nav">
 
 	<ul>
-		<li><a	 href="index.php">Home</a></li>
-		<li><a  href="contact.php">Contact</a></li>
-		<li><a class="active" href="about.php">About</a></li>
-		<li style="float:left"><a  href="http://localhost/quiz_oops/">Quiz</a></li>
+		<li><a	class="active" href="index.php">Home</a></li>
+		<li><a href="contact.php">Contact</a></li>
+		<li><a href="about.php">About</a></li>
+		<li style="float:left"><a  href="index1.php">Quiz</a></li>
 	</ul>
     </div>
   </header>
